@@ -133,7 +133,6 @@ public class DBControler {
             con = util.GetConnection();
             String query = "INSERT INTO tvshow_logs ( title,year,imdb_id,genres,directors,writers,actors,hash ) VALUES (?,?,?,?,?,?,?,?);";
             PreparedStatement preSt = con.prepareStatement(query);
-			//PreparedStatement preSt = con.prepareStatement(query);
             preSt.setString(1, title);
             preSt.setString(2, year);
             preSt.setString(3, imdb);
