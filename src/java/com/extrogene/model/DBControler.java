@@ -21,8 +21,6 @@ public class DBControler {
             preSt.setInt(2, year);
             preSt.setString(3, imdb);
             preSt.setString(4, genres);
-			//preSt.setString(4, genres);
-			//preSt.setString(4, genres);
             preSt.setString(5, director);
             preSt.setString(6, writer);
             preSt.setString(7, actor);
@@ -43,7 +41,6 @@ public class DBControler {
     public void setBestMovie(int id,String title,int year,String imdb,String genres,String director,String writer,String producer,String actor){
         util = new Util();
         try {
-			//Added new comments to create Type 2 Clones
             con = util.GetConnection();
             String query = "INSERT INTO best_movies (id, title,year,imdb_id,genres,directors,writers,producers,actors ) VALUES (?,?,?,?,?,?,?,?,?);";
             PreparedStatement preSt = con.prepareStatement(query);
@@ -136,6 +133,7 @@ public class DBControler {
             con = util.GetConnection();
             String query = "INSERT INTO tvshow_logs ( title,year,imdb_id,genres,directors,writers,actors,hash ) VALUES (?,?,?,?,?,?,?,?);";
             PreparedStatement preSt = con.prepareStatement(query);
+			//PreparedStatement preSt = con.prepareStatement(query);
             preSt.setString(1, title);
             preSt.setString(2, year);
             preSt.setString(3, imdb);
