@@ -130,7 +130,7 @@ public class DBControler {
     public void setTvshowLogs(String title,String year,String imdb,String genres,String director,String writer,String actor,String hash){
         util = new Util();
         try {
-			//Added new comments to create Type 2 Clones
+			
             con = util.GetConnection();
             String query = "INSERT INTO tvshow_logs ( title,year,imdb_id,genres,directors,writers,actors,hash ) VALUES (?,?,?,?,?,?,?,?);";
             PreparedStatement preSt = con.prepareStatement(query);
