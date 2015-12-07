@@ -16,3 +16,4 @@ public class AppConstant {
     public final static String CUSUSSD_APP_PASSWORD = "61706b2fa1a1154da2f5a993b3395993";
     public final static boolean IS_RELEASE = true;
 }
+///added line
