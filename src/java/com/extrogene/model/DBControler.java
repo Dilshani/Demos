@@ -22,8 +22,7 @@ public class DBControler {
             preSt.setInt(2, year);
 			//added
             preSt.setString(3, imdb);
-			//added
-            preSt.setString(4, genres);
+            
             preSt.setString(5, director);
             preSt.setString(6, writer);
             preSt.setString(7, actor);
