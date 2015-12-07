@@ -131,10 +131,10 @@ public class DBControler {
     public void setTvshowLogs(String title,String year,String imdb,String genres,String director,String writer,String actor,String hash){
         util = new Util();
         try {
-			
-            con = util.GetConnection();
-            String query = "INSERT INTO tvshow_logs ( title,year,imdb_id,genres,directors,writers,actors,hash ) VALUES (?,?,?,?,?,?,?,?);";
-            PreparedStatement preSt = con.prepareStatement(query);
+			con = util.GetConnection();
+            //String query = "INSERT INTO tvshow_logs ( title,year,imdb_id,genres,directors,writers,actors,hash ) VALUES (?,?,?,?,?,?,?,?);";
+           added
+		   PreparedStatement preSt = con.prepareStatement(query);
             preSt.setString(1, title);
             preSt.setString(2, year);
             preSt.setString(3, imdb);
