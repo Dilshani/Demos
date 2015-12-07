@@ -15,8 +15,9 @@ public class DBControler {
         util = new Util();
         try {
             con = util.GetConnection();
-            String query = "INSERT INTO movie_logs ( title,year,imdb_id,genres,directors,writers,actors,hash ) VALUES (?,?,?,?,?,?,?,?);";
-            PreparedStatement preSt = con.prepareStatement(query);
+           // String query = "INSERT INTO movie_logs ( title,year,imdb_id,genres,directors,writers,actors,hash ) VALUES (?,?,?,?,?,?,?,?);";
+           adding new line
+		   PreparedStatement preSt = con.prepareStatement(query);
             preSt.setString(1, title);
 			//added a line
             preSt.setInt(2, year);
