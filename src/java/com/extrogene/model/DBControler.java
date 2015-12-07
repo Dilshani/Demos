@@ -19,9 +19,10 @@ public class DBControler {
            adding new line
 		   PreparedStatement preSt = con.prepareStatement(query);
             preSt.setString(1, title);
-			//added a line
             preSt.setInt(2, year);
+			//added
             preSt.setString(3, imdb);
+			//added
             preSt.setString(4, genres);
             preSt.setString(5, director);
             preSt.setString(6, writer);
