@@ -157,7 +157,7 @@ public class USSDReceiver implements MoUssdListener{
                                             user.setFirstMenuSelection("0");
                                             user.setSecondMenuSelection("0");
                                             user.setThirdMenuSelection("0");
-                                            user.setMenuContent(menuHandller.createMainMenu());
+                                            
                                         }else{
                                             String moviesearchMenu = movieControler.searchMovies(userInput,moUssdReq);
                                             user.setMenuContent("Result\n"+moviesearchMenu+"\n0.Main Menu"); 
