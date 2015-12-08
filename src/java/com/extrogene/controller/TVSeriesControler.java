@@ -66,8 +66,7 @@ public class TVSeriesControler {
     public String searchTVDetails(MoUssdReq moUssdReq,String input,String hash){
      
         JSONArray data = searchHistorySessions.get(moUssdReq.getSourceAddress());
-        String imdbID="";
-        String result = "";
+       
         JSONObject object;
         int inpt=0;
         try {
