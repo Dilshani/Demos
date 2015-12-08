@@ -199,7 +199,6 @@ public class USSDReceiver implements MoUssdListener{
                             case "1":
                                 if(userInput.equalsIgnoreCase("0")){
                                     user.setFirstMenuSelection("0");
-                                    user.setSecondMenuSelection("0");
                                     user.setThirdMenuSelection("0");
                                     user.setMenuContent(menuHandller.createMainMenu());
                                 }else{
