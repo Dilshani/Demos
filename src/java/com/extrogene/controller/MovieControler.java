@@ -88,6 +88,10 @@ public class MovieControler {
             result = object.getString("title")+"\nYear : "+
                     object.getInt("year")+"\nCountry : "+
                     object.getString("country")+"\nRuntime : "+
+					object.getInt("year")+"\nCountry : "+
+                    object.getString("country")+"\nRuntime : "+
+					object.getInt("year")+"\nCountry : "+
+                    object.getString("country")+"\nRuntime : "+
                     object.getInt("runtime");
                     //object.getString("genres");
                     //object.getString("genres");
