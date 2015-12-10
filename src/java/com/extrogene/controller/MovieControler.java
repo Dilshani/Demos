@@ -87,6 +87,9 @@ public class MovieControler {
             object = data.getJSONObject(inpt);                                
             result = object.getString("title")+"\nYear : "+
                     object.getInt("year")+"\nCountry : "+
+					object.getInt("year")+"\nCountry : "+
+					object.getInt("year")+"\nCountry : "+
+					object.getInt("year")+"\nCountry : "+
                     object.getString("country")+"\nRuntime : "+
 					object.getInt("year")+"\nCountry : "+
                     object.getString("country")+"\nRuntime : "+
