@@ -23,11 +23,6 @@ public class DBControler {
 			//added
             preSt.setString(3, imdb);
             
-            preSt.setString(5, director);
-            preSt.setString(6, writer);
-            preSt.setString(7, actor);
-            preSt.setString(8, hash);
-            
             preSt.execute();
             
         } catch (SQLException ex) {
