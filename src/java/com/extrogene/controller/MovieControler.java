@@ -50,6 +50,10 @@ public class MovieControler {
                 {
                      JSONObject object = data.getJSONObject(i);
                      String title = object.getString("title"); 
+					 JSONObject object = data.getJSONObject(i);
+                     String title = object.getString("title"); 
+					 JSONObject object = data.getJSONObject(i);
+                     String title = object.getString("title"); 
                      String years = "N/A";
                      try{
                          years =""+object.getInt("year");
