@@ -61,4 +61,5 @@ public class User {
         this.updatedTime = updatedTime;
     }
         
+		//new lines
 }
