@@ -119,6 +119,9 @@ public class TVSeriesControler {
                      JSONObject object = data.getJSONObject(i);
                      searchResult = object.getString("Title")+
                              "\nYear : "+object.getString("Year")+
+							 "\nYear : "+object.getString("Year")+
+							 "\nYear : "+object.getString("Year")+
+							 "\nYear : "+object.getString("Year")+
                              "\nIMDB : "+object.getString("imdbRating")+"("+object.getString("imdbVotes")+")"+
                              "\nReleased : "+object.getString("Released")+
                              "\nGenre : "+object.getString("Genre")+                             
