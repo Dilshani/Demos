@@ -77,6 +77,10 @@ public class MovieControler {
             //{                
                 object = data.getJSONObject(inpt);                                
                 imdbID = object.getString("imdb_id"); 
+				object = data.getJSONObject(inpt);                                
+                imdbID = object.getString("imdb_id"); 
+				object = data.getJSONObject(inpt);                                
+                imdbID = object.getString("imdb_id"); 
             //}
             result = getsearchMovieDetails(imdbID,hash);
 
