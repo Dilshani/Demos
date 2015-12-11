@@ -115,8 +115,7 @@ public class MovieControler {
         try{
                 URLConnection connection = new URL(apiUrl).openConnection();
 
-                BufferedReader reader = new BufferedReader(new InputStreamReader(connection.getInputStream()), 2048 * 16);
-            StringBuffer builder = new StringBuffer();
+                
                 String line;
 
                 while ((line = reader.readLine()) != null) {
